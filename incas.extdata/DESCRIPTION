@@ -3,8 +3,8 @@ Type: Package
 Title: Contains PSCBS data and scripts to produce PSCBS data
 Version: 0.0.1
 Author: Morgane Perre-Jean and Pierre Neuvial
-Maintainer: mpierrejean.pro@gmail.com
+Maintainer: <mpierrejean.pro@gmail.com>
 Description: Contains PSCBS data use to run PSCBSwrapper vignette in InCaSCN package and scripts to produce PSCBS data from raw data.
-License: What license is it under?
+License: CC0
 LazyData: TRUE
 RoxygenNote: 5.0.1
