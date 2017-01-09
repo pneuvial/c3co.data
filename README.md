@@ -1,6 +1,6 @@
 # c3co.data: example for using c3co on PSCBS data
 
-This data package was built to serve as an example for a vignette in the `c3co` package.
+This data package was built to serve as an example for a vignette in the `c3co` package (which is not released publicly yet).
 It contains SNP array data from GEO under accession number GSE22928.
 
 ## Software status
