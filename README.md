@@ -1,4 +1,4 @@
-# c3co-data: example for using c3co on PSCBS data
+# c3co.data: example for using c3co on PSCBS data
 
 This data package contains SNP array data from GEO under number accession GSE22928:
 
