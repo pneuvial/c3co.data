@@ -13,7 +13,7 @@ path <- "data"
 dataSet <- "GSE22928"
 filePath <- file.path(dataSet,list.files(dataSet, pattern="matrix_processed"))[1]
 if(!file.exists(filePath)){
-  message("load GSE22928 data set from GEO. Coul take time")
+  message("load GSE22928 data set from GEO. Could take time")
   gset <- getGEOSuppFiles('GSE22928')
 }
 dataSNP <- readDataFrame(filePath)[, -(92:97)]
