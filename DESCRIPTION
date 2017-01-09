@@ -1,10 +1,10 @@
-Package: incas.extdata
+Package: c3co.data
 Type: Package
-Title: Contains PSCBS data and scripts to produce PSCBS data
+Title: Data for the c3co package
 Version: 0.0.1
 Author: Morgane Perre-Jean and Pierre Neuvial
 Maintainer: <mpierrejean.pro@gmail.com>
-Description: Contains PSCBS data use to run PSCBSwrapper vignette in InCaSCN package and scripts to produce PSCBS data from raw data.
-License: CC0
+Description: Example PSCBS data used by the PSCBSwrapper vignette of the c3co package
+License: LGPL (>= 2.1)
 LazyData: TRUE
 RoxygenNote: 5.0.1
