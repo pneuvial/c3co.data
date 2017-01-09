@@ -32,3 +32,26 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 .Rproj.user
+
+.Rbuildignore
+*.Rproj
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+inst/doc
+
+## symbolic links to data directories
+annotationData
+cnRegionData
+probeData
+plmData
+rawData
+totalAndFracBData
+wholeGenomeData
+png
+
+
+## OS X
+.DS_Store
+*~

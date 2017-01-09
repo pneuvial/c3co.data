@@ -2,6 +2,7 @@
 #'
 #' dataset containing the output of PSCBS package
 #'
+#' @name segment,GSE22928,MM,LAU108EBV
 #' @format A list with 5 components:
 #' \describe{
 #'   \item{data}{PairedPSCNData}
@@ -12,12 +13,13 @@
 #'   ...
 #' }
 #' @source \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE22928}
-"segment,GSE22928,MM,LAU108EBV"
+NULL
 
 #' segment,GSE22928,MM,LAU108Me246
 #'
 #' dataset containing the output of PSCBS package
 #'
+#' @name segment,GSE22928,MM,LAU108Me246
 #' @format A list with 5 components:
 #' \describe{
 #'   \item{data}{PairedPSCNData}
@@ -28,12 +30,14 @@
 #'   ...
 #' }
 #' @source \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE22928}
-"segment,GSE22928,MM,LAU108Me246"
+NULL
+
 
 #' segment,GSE22928,MM,LAU108PBK
 #'
 #' dataset containing the output of PSCBS package
 #'
+#' @name segment,GSE22928,MM,LAU108PBK
 #' @format A list with 5 components:
 #' \describe{
 #'   \item{data}{PairedPSCNData}
@@ -44,12 +48,13 @@
 #'   ...
 #' }
 #' @source \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE22928}
-"segment,GSE22928,MM,LAU108PBK"
+NULL
 
 #' segment,GSE22928,MM,LAU149PBL
 #'
 #' dataset containing the output of PSCBS package
 #'
+#' @name segment,GSE22928,MM,LAU149PBL
 #' @format A list with 5 components:
 #' \describe{
 #'   \item{data}{PairedPSCNData}
@@ -60,12 +65,13 @@
 #'   ...
 #' }
 #' @source \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE22928}
-"segment,GSE22928,MM,LAU149PBL"
+NULL
 
 #' segment,GSE22928,MM,LAU149T149D
 #'
 #' dataset containing the output of PSCBS package
 #'
+#' @name segment,GSE22928,MM,LAU149T149D
 #' @format A list with 5 components:
 #' \describe{
 #'   \item{data}{PairedPSCNData}
@@ -76,4 +82,4 @@
 #'   ...
 #' }
 #' @source \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE22928}
-"segment,GSE22928,MM,LAU149T149D"
+NULL
