@@ -83,3 +83,34 @@ NULL
 #' }
 #' @source \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE22928}
 NULL
+
+#' segDat-RK29
+#'
+#' dataset containing the segmentation of data for patient RK29
+#' 
+#' @name segDat-RK29
+#' @format A list with 4 components
+#' \describe{
+#'   \item{bkp}{List of breakpoints}
+#'   \item{Y1}{Segmented Minor copy number}
+#'   \item{Y2}{Segmented Major copy number}
+#'   \item{Y}{Segmented Total copy number}
+#'   ...
+#' }
+#' 
+NULL
+
+#' resC3CO-RK29
+#'
+#' dataset containing the output of C3CO method on patient RK29 samples from GSE47077 dataset
+#'
+#' @name resC3CO-RK29
+#' @format A c3coFit object from package c3co
+#' \describe{
+#'   \item{bkp}{breakpoints}
+#'   \item{segDat}{Segmented data}
+#'   \item{fit}{Results of c3co for each number of feature}
+#'   ...
+#' }
+#' 
+NULL
