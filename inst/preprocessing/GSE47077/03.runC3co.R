@@ -4,6 +4,7 @@
 
 library("c3co")
 patientID <- "RK29"
+stopifnot(packageVersion("c3co")>='0.2.1.9000')
 
 path <- "GSE47077"
 path <- R.utils::Arguments$getReadablePath(path)
@@ -11,9 +12,9 @@ filename <- sprintf("dat-%s.rds", patientID)
 pathname <- file.path(path, filename)
 datList <- readRDS(pathname)
 
-lambda.grid <- c(2e-6, 1e-5, 2e-5, 1e-4,1e-3) ## penalty
+lambda.grid <- 10^(-seq(from = 2, to = 6, by = 1)) ## penalty
 p.list <- 2:length(datList) ## candidate number of subclones
-parameters.grid <- list(lambda1 = lambda.grid, lambda2 = lambda.grid, nb.arch = p.list)
+parameters.grid <- list(lambda = lambda.grid, nb.arch = p.list)
 
 filenameSeg <- sprintf("segDat-%s.rds", patientID)
 pathnameSeg <- file.path(path, filenameSeg)
