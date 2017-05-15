@@ -16,18 +16,16 @@ lambda.grid <- 10^(-seq(from = 2, to = 6, by = 1)) ## penalty
 p.list <- 2:length(datList) ## candidate number of subclones
 parameters.grid <- list(lambda = lambda.grid, nb.arch = p.list)
 
-filenameSeg <- sprintf("segDat-%s.rds", patientID)
+filenameSeg <- sprintf("segDat.rda", patientID)
 pathnameSeg <- file.path(path, filenameSeg)
 
 if(!file.exists(pathnameSeg)){
-  resC3co <- c3co(datList, parameters.grid = parameters.grid, verbose = TRUE)
-  segdat <- resC3co@segDat
-  segdat$bkp <- resC3co@bkp
-  saveRDS(segdat, pathnameSeg)
+  resC3CO <- c3co(datList, parameters.grid = parameters.grid, verbose = TRUE)
+  segDat <- resC3CO@segDat
+  segDat$bkp <- resC3CO@bkp
+  devtools::use_data(segDat, path)
 }else{
-  resC3co <- c3co(NULL, pathSeg = pathnameSeg, parameters.grid = parameters.grid, verbose = TRUE)
+  resC3CO <- c3co(NULL, pathSeg = pathnameSeg, parameters.grid = parameters.grid, verbose = TRUE)
 }
-filenameResC3CO <- sprintf("resC3CO-%s.rds", patientID)
-pathnameResC3CO <- file.path(path, filenameResC3CO)
-saveRDS(resC3co, pathnameResC3CO)
+devtools::use_data(resC3CO, path)
 
