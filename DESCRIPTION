@@ -1,6 +1,6 @@
 Package: c3co.data
 Type: Package
-Title: Data for the c3co package
+Title: Example Data for the c3co Package
 Version: 0.0.2-9000
 Date: 2017-05-15
 Authors@R: c(person("Morgane", "Pierre-Jean", role = c("aut", "cre"),
