@@ -13,4 +13,3 @@
 \description{
 dataset containing the output of C3CO method on patient RK29 samples from GSE47077 dataset
 }
-

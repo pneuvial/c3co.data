@@ -1,0 +1,21 @@
+Package: c3co.data
+==================
+
+Version: 0.2.0 [2019-02-20]
+
+NEW FEATURES:
+
+ * data("PSCBSdata") now got sample names in names() as well as in the
+   individual PairedPSCBS objects.
+
+
+Version: 0.1.0 [2017-07-24]
+
+SIGNIFICANT CHANGES:
+
+ * Moved all datasets to 'data' directory.
+
+
+Version: 0.0.1 [2017-01-09]
+
+ * Created.

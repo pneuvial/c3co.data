@@ -1,12 +1,13 @@
 Package: c3co.data
-Type: Package
-Title: Data for the c3co package
-Version: 0.1.0
-Date: 2017-07-24
+Title: Data for the 'c3co' Package
+Version: 0.2.0
 Authors@R: c(person("Morgane", "Pierre-Jean", role = c("aut", "cre"),
                      email = "morgane.pierrejean@genopole.cnrs.fr"),
-              person("Pierre", "Neuvial", role = "aut"))
+              person("Pierre", "Neuvial", role = "aut"),
+              person("Henrik", "Bengtsson", role = "ctb"))
 Description: Example PSCBS data used by the PSCBSwrapper vignette of the c3co package.
+Depends:
+   R (>= 2.10.0)
 License: LGPL (>= 2.1)
 LazyData: TRUE
-RoxygenNote: 5.0.1
+RoxygenNote: 6.1.1
