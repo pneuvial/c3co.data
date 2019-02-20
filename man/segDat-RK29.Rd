@@ -14,4 +14,3 @@
 \description{
 dataset containing the segmentation of data for patient RK29
 }
-

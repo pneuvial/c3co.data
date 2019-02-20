@@ -18,4 +18,3 @@
 \description{
 dataset containing the output of PSCBS package
 }
-

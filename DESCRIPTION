@@ -7,4 +7,4 @@ Authors@R: c(person("Morgane", "Pierre-Jean", role = c("aut", "cre"),
 Description: Example PSCBS data used by the PSCBSwrapper vignette of the c3co package.
 License: LGPL (>= 2.1)
 LazyData: TRUE
-RoxygenNote: 5.0.1
+RoxygenNote: 6.1.1
